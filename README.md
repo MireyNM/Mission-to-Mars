@@ -10,8 +10,8 @@ The aim of this project is to apply full web-scraping for the mission to Mars by
 
 ## Resources 
 - Data Source: </br>
-Mars News: https://redplanetscience.com/  </br>
-Mars Temperature Data: https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html </br>
+<a href="https://redplanetscience.com/">Mars News</a>  </br>
+<a href="https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html">Mars Temperature Data</a>  </br>
 - Software: Python 3.7.13, Jupyter Notebook. 
 
 ## Analysis of Data and Results
@@ -20,10 +20,11 @@ Mars Temperature Data: https://data-class-mars-challenge.s3.amazonaws.com/Mars/i
 Using Splinter an automated browsing was used to visit the Mars news site. Then, we have extracted the ```HTML``` code with Beautiful Soup. 
 After that, we have scraped and extracted the titles and preview text of the news articles and we have stored them in a dictionary. </br>
 
-Finally, we have exported the data to JSON file and we have saved them as ```mars.csv``` (Check https://github.com/MireyNM/Mission_to_Mars/blob/main/mars.csv to see the extracted information) 
+Finally, we have exported the data to JSON file and we have saved them as <a href="https://github.com/MireyNM/Mission_to_Mars/blob/main/mars.csv">mars.csv</a>
+
 </br>
 
-To see the full code written in this part check ```mars_data_challenge_part_1.ipynb``` (https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_data_challenge_part_1.ipynb)
+To see the full code written in this part check <a href="https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_data_challenge_part_1.ipynb">mars_data_challenge_part_1.ipynb</a>
 </br>
 
 **2. Scrape and Analyze Mars Weather Data** </br>
@@ -35,10 +36,12 @@ After extracting Mars temperature table, we used this table to analyze and visua
 - Which month, on average, has the lowest atmospheric pressure? The highest?
 - How many terrestrial days exist in a Martian year? A visual estimate within 25% was made.
 </br>
-Finally, the last step was to export our data as ```mars_table.csv``` (To see the full table data check https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_table.csv )
+Finally, the last step was to export our data as <a href="https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_table.csv">mars_table.csv</a>
+
 </br>
 
-To see the full code written to do this part check ```mars_data_challenge_part_2.ipynb``` (https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_data_challenge_part_2.ipynb)
+To see the full code written to do this part check <a href="https://github.com/MireyNM/Mission_to_Mars/blob/main/mars_data_challenge_part_2.ipynb">mars_data_challenge_part_2.ipynb</a>
+
 </br>
 
 ## Summary
